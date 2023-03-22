@@ -1,5 +1,6 @@
 /* nesting */
 body {
+  /* nested Properties */
   font-family: Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -19,5 +20,8 @@ body div p {
 h1 {
   font-size: 3em;
 }
+
+/* encapsolation by modules */
+/* Mixins */
 
 /*# sourceMappingURL=index.css.map */
