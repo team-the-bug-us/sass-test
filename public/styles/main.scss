@@ -1,0 +1,26 @@
+$primaryColor: green;
+$secondaryColor: red;
+
+
+/* nesting */
+body {
+    h1 {
+        color: $primaryColor
+    }
+    div{
+        img{
+            max-width: 300px;
+        }
+        h1{
+            color: $secondaryColor;
+        }
+        p{
+            background-color: $primaryColor;
+        }
+    }
+
+    font:{
+        family: Helvetica, sans-serif;
+        weight: bold;
+    }
+}
